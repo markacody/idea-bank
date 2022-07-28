@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- The integrity hash protects against malicious code at the url -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- Use the defer attribute to prevent blocking and to execute after the body is parsed. -->
+    <script src="index.js" defer></script>
+
+    <title>Idea Bank. Make a Deposit.</title>
+</head>
+<body class="body">
+
+    <div class="container">
+        <main class="app">
+            <header class="header">
+                <!-- <img src="https://bytegrad.com/course-assets/js/1/pattern.svg" alt="pattern" class="header__pattern"> -->
+                <a href="." class="logo">
+                    <img src="images/logo.svg" alt="logo" class="logo__img">
+                </a>
+                <h1 class="first-heading">Idea Bank. <span class="u-italic u-transparent">Make a Deposit.</span></h1>
+
+                <form action="#" class="form">
+                    <textarea name="Idea Bank Form" id="textarea" class="form__textarea" spellcheck="false" maxlength="150" type="text" placeholder="Enter your idea here."></textarea>
+                    <label for="textarea" class="form__label">
+                        Enter your idea here. Remember to <span class="u_medium">#hashtag</span> the related initiative. <i class="fa-solid fa-pen form__icon"></i>
+                    </label>
+                    <div class="form__button">
+                        <p class="counter__text"><span class="counter u-italic">150 </span> characters max</p>
+                        <button class="submit-btn">
+                            Submit
+                        </button>
+                    </div>
+                </form>
+            </header>
+
+            <ol class="ideas">
+                <div class="spinner"></div>
+            </ol>
+        </main>
+
+        <aside class="hashtags">
+            <ul class="hashtags__list">
+                <li class="hashtags__header">
+                    Select an initiative <br> to filter the list.
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#5by25</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#OperationalExcellence</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#GreenCampus</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#IntelligentChat</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#CloudSecOps</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#FinancialLiteracy</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#IamIT</button>
+                </li>
+                <li class="hashtags__item">
+                    <button class="hashtag">#EverydayAnalytics</button>
+                </li>
+            </ul>
+        </aside>
+    </div> 
+    <!-- End .container -->
+    <footer class="footer">
+        <div class="copyright">
+            <p class="copyright__text">
+                © Copyright by <a href="https://bytegrad.com" class="copyright__link"
+                target="_blank">ByteGrad.com</a> <i class="fa-solid fa-square-up-right copyright__icon"></i>
+            Intended for learning or portfolio. <br> Not allowed to use as your own teaching material.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
