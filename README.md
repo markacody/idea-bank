@@ -6,7 +6,7 @@ The project is an adaptation of an academic project by ByteGrad.com.
 
 ### Features
 
-- Form designed for learnability and accurate data collection
+- Form designed for usability and accurate data collection
 - Form feedback in real time and after submission
 - Text manipulation using JavaScript string methods
 - API communications with Fetch
